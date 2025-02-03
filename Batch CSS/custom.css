@@ -39,3 +39,23 @@ a[title="google"]{
 .child >a{
     color: green;
 }
+/* pseudo selector */
+/* :link */
+a:link{
+    color:red
+}
+a:hover{
+    color:green
+}
+a:active{
+    color: yellow;
+
+}
+a:visited{
+    color:brown
+}
+/* target */
+:target{
+    color: red;
+    border: 2px solid black;
+}
