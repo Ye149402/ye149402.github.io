@@ -9,32 +9,37 @@
 <body id="mybody">
     <h1>Student Register</h1>
 
-    <form action="" id="myfform">
+    <form action="" id="myform">
         <div>
             <label for="name">Name</label>
             <input type="text" placeholder="Mg Mg" id="name">
         </div>
+        <br><br>
 
         <div>
             <label for="email">Email</label>
             <input type="email" placeholder="example@gmail.com" id="email">
         </div>
+        <br><br>
 
         <div>
             <label for="nrc">NRC</label>
             <input type="text" placeholder="*******" id="nrc">
         </div>
+        <br><br>
 
         <div>
             <label for="dob">DOB</label>
             <input type="date" id="dob">
         </div>
+        <br><br>
 
 
         <div>
             <label for="phone">Phone</label>
             <input type="number" placeholder="09*********" id="phone" name="phone">
         </div>
+        <br><br>
 
         <div>
             <label for="">Gender</label>
@@ -45,10 +50,11 @@
             <input type="radio" id="female" value="female" name="gender">
             <label for="female">Female</label>
         </div>
+        <br><br>
 
         <div>
             <label for="name">Education</label>
-            <select name="" id="">
+            <select name="" id="education">
                 <option value="">Please Choose One</option>
                 <option value="">First Year</option>
                 <option value="">Third Year</option>
@@ -68,7 +74,7 @@
                 <label for="Singing">Singing</label>
             </div>
             <div>
-                <input type="checkbox" id="Travelling">
+                <input type="checkbox" id="Travelling" disabled>
                 <label for="Travelling">Travelling</label>
             </div>
             <div>
@@ -88,6 +94,7 @@
                 <label for="Gaming">Gaming</label>
             </div>
         </div>
+        <br><br>
 
         <fieldset>
             <legend>Rules</legend>
@@ -105,7 +112,12 @@
         <p></p>
 
 
-        <button>Register</button>
+        <button class="register_btn">Register</button>
+
+
+
+
+        <p>Thank For Your Register!</p>
 
 
 
