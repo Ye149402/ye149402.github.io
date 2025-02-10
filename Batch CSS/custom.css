@@ -14,6 +14,7 @@ h1{
 /* tag /element selector */
 h1{
     color: green;
+    margin: 50px 0px;
 
 }
 
@@ -110,5 +111,123 @@ a:visited{
     width: 300px;
     display: inline-block;
   }
+  /* float */
+  .float_left img{
+    width: 40px;
+    float: left;
+  }
+  .clear{
+    clear: both;
+  }
+  .float_right img{
+    width: 40px;
+    float: right;
+  }
+  /* grid */
+  .gridOne div,.gridTwo div,.gridThree div,.gridFour div,.gridFive div,.gridSix div{
+    padding: 20px;
+    color: white;
+    text-align: center;
+  }
+  .gridOne,.gridTwo,.gridThree,.gridFour,.gridFive,.gridSix{
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+  }
+  .gridTwo{
+    grid-column-gap: 50px;
+
+
+  }
+  .gridThree{
+    grid-row-gap: 30px;
+
+
+  }
+  .gridFour{
+    grid-gap: 50px;
+    /* grid-row-gap: 40px; */
+    /* grid-coloum-gap: 20px; */
+  }
+  .columadd{
+    grid-column-start: 1;
+    grid-column-end: 3;
+
+
+  }
+  .rowadd{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 4;
+
+
+
+  }
+  /* position */
+  .relative_parent{
+    border: 2px solid red;
+    width: 1000px;
+    height: 500px;
+
+  }
+  
+  
+  .relative{
+    border: 2px solid green;
+    width: 500px;
+    height: 200px;
+    position: relative;
+    top: 100px;
+    left: 150px;
+    
+  }
+  .absolute_parent{
+    border: 2px solid yellow;
+    width: 1000px;
+    height: 500px;
+    position: relative;
+    
+  }
+  .absolute{
+    border: 2px solid black;
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    top: 100px;
+    right: 30px;
+  }
+    
+  .fixed{
+    position: fixed;
+    top: 1000px;
+    right: 500px;
+    
+  }
+  
+    
+.onlineFont{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+@font-face {
+  font-family:"shadow";
+  src: url("images/Playfair_Display\ \(1\)/");
+}
+.offline{
+  font-family: "shadow";
+}
+
+  
+
+  
+  
+
+
+
+
+
 
 
